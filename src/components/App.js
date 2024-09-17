@@ -54,6 +54,7 @@ const App = () => {
     <div>
       <h1>FLAMES Game</h1>
       <input
+        name="name1"
         data-testid="input1"
         type="text"
         value={name1}
@@ -61,6 +62,7 @@ const App = () => {
         placeholder="Enter first name"
       />
       <input
+        name="name2"
         data-testid="input2"
         type="text"
         value={name2}
@@ -85,5 +87,6 @@ const App = () => {
 };
 
 export default App;
+
 
 
